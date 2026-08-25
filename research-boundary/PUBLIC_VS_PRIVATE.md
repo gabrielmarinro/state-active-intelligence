@@ -24,4 +24,3 @@ This repository exposes the research direction while protecting implementation-s
 - Proprietary tests
 - Operational architecture
 
-**The implementation stays private. The thinking is public.**
