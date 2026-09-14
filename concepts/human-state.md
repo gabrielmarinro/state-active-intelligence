@@ -1,9 +1,13 @@
 # Human State
 
-A human cannot be adequately modeled as a static profile.
+A human is a dynamic system rather than a static profile.
 
-Capability, behavior, cognition, context, compensation and constraints continuously interact.
+Behavior and decisions can change with experience, circumstances, internal conditions, goals and surrounding environments.
 
-The system therefore reasons over an evolving human state rather than a fixed identity.
+A useful intelligence system therefore needs to account for the possibility that the same person can behave differently at different points in time.
 
-**I build for the real human, not the ideal human.**
+Historical behavior can provide evidence about a person while still becoming less representative as circumstances change.
+
+State-Active Intelligence explores how AI can reason about evolving human state without reducing a person to a fixed identity or permanent profile.
+
+The specific representation and inference methods remain outside the public research layer.
