@@ -4,26 +4,40 @@
 
 A human is a dynamic system rather than a static profile.
 
+AI systems should account for changing behavior, context, experience and internal state without assuming that historical patterns remain permanently valid.
+
 ## 2. Separate epistemic states
 
-**What is known → what is observed → what is inferred → what intervention is possible → what happens next.**
+The system should distinguish what is known, observed, inferred, predicted and decided.
 
-## 3. Treat intervention as causal
+Evidence, inference and uncertainty should remain explicitly separated.
 
-An intervention can change the state being modeled.
+## 3. Preserve human agency
 
-## 4. Preserve human agency
+Recommendation, intervention and human decision are distinct concepts.
 
-Recommendation, intervention and human decision remain distinct concepts.
+The system should support human agency rather than assume compliance.
 
-## 5. Model uncertainty explicitly
+## 4. Model uncertainty explicitly
 
-The system should distinguish evidence, inference, uncertainty and consequence.
+Uncertainty is part of the state being reasoned about.
+
+The system should preserve ambiguity when available evidence does not support a stronger conclusion.
+
+## 5. Account for change
+
+Human behavior and environmental conditions evolve over time.
+
+AI systems should be designed to recognize that yesterday's model may become insufficient for today's state.
 
 ## 6. Close the loop
 
-**Observe → understand → predict → intervene → observe again → learn.**
+**Observe → understand → predict → act → observe again → learn.**
 
-## 7. Design for changing environments
+The outcome of an action should become evidence for subsequent reasoning.
 
-Context, constraints and behavior evolve continuously.
+## 7. Treat intervention as part of the system
+
+When intelligence acts upon a system, that action may alter the state being modeled.
+
+The intelligence must therefore account for its own influence when reasoning about subsequent states and outcomes.
