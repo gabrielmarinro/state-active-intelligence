@@ -1,7 +1,13 @@
 # Closed-Loop Intelligence
 
-State-Active Intelligence operates as a continuous loop:
+State-Active Intelligence considers intelligence as part of an evolving system rather than as an external observer.
 
-**Observe → Understand → Predict → Intervene → Observe Again → Learn → Predict Again**
+The system observes changing conditions, reasons about possible outcomes and may act in ways that influence what happens next.
 
-The loop matters because intervention can change the state that future intelligence depends on.
+This creates a continuous relationship between:
+
+**state → intelligence → action → changing state**
+
+The research question is how intelligence should operate when the system it observes can evolve over time and can also be influenced by the intelligence itself.
+
+The implementation details of this process remain outside the public research layer.
