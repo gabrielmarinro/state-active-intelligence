@@ -1,7 +1,11 @@
 # Intervention
 
-An intervention is an action taken by the intelligence system that can alter the state it is modeling.
+An intervention is an action taken by an intelligence system that may influence the system it is observing.
 
-Intervention therefore belongs inside the causal system rather than outside it.
+This creates an important distinction between observing a system and acting within that system.
 
-**Predict → intervene → state changes → observe again.**
+When intelligence can influence subsequent behavior or conditions, the action itself becomes relevant to understanding what happens afterward.
+
+State-Active Intelligence therefore treats intervention as part of the broader state evolution problem.
+
+The specific intervention logic, decision criteria and implementation mechanisms remain outside the public research layer.
