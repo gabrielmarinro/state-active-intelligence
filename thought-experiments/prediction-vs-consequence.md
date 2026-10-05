@@ -1,13 +1,13 @@
 # Prediction vs Consequence
 
-Prediction asks:
+Prediction concerns what may happen under stated conditions.
 
-> **What is likely to happen?**
+Consequence concerns what followed and what changed afterward.
 
-State-Active Intelligence asks:
+In an evolving system, those questions become coupled because the use of a prediction can influence subsequent conditions.
 
-> **What can happen when the system acts on the state it is trying to understand?**
+The distinction matters for evaluation:
 
-The distinction matters whenever the intervention can alter the predicted outcome.
+> **A forecast and the future it participates in are analytically different objects.**
 
-**Prediction → intervention → consequence → new state.**
+This repository examines that distinction without publishing the private mechanisms used to operationalize it.

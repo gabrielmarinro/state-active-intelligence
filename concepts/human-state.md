@@ -1,13 +1,11 @@
 # Human State
 
-A human is a dynamic system rather than a static profile.
+Human state is dynamic.
 
-Behavior and decisions can change with experience, circumstances, internal conditions, goals and surrounding environments.
+Behavior, intention, priorities, circumstances and surrounding conditions can change across time.
 
-A useful intelligence system therefore needs to account for the possibility that the same person can behave differently at different points in time.
+Historical behavior may remain informative while becoming less representative. A declared intention may differ from later observed behavior. The same person may therefore produce different outcomes under different conditions.
 
-Historical behavior can provide evidence about a person while still becoming less representative as circumstances change.
+The public research concern is how intelligence can reason about such change without reducing a person to a static profile.
 
-State-Active Intelligence explores how AI can reason about evolving human state without reducing a person to a fixed identity or permanent profile.
-
-The specific representation and inference methods remain outside the public research layer.
+Formal representations and inference mechanisms remain private.

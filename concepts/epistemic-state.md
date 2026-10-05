@@ -1,13 +1,18 @@
 # Epistemic State
 
-Intelligent systems should distinguish between what is known, what is observed and what is inferred.
+Epistemic state concerns what can legitimately be claimed from available information.
 
-These represent different epistemic conditions.
+For intelligent systems, useful distinctions include:
 
-A system should preserve uncertainty when evidence is insufficient rather than presenting inference as established fact.
+- established information
+- observation
+- interpretation
+- prediction
+- decision
+- subsequent outcome
 
-This distinction becomes particularly important when the system is reasoning over changing conditions and evolving states.
+Collapsing these categories can create false certainty.
 
-State-Active Intelligence treats epistemic discipline as a foundational property of trustworthy intelligence.
+Keeping them distinct supports better reasoning, clearer auditability and more honest communication of uncertainty.
 
-The specific governance mechanisms used to implement this principle remain outside the public research layer.
+The repository publishes the principle and withholds implementation-specific governance mechanisms.

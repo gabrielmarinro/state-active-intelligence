@@ -1,15 +1,14 @@
 # Consequence
 
-A consequence is a change that follows from decisions, actions, surrounding conditions or interactions within an evolving system.
+A consequence is a change that follows from an action, decision, interaction or surrounding condition.
 
-State-Active Intelligence treats consequences as part of the system's continuing evolution rather than as an isolated end result.
+In evolving systems, a consequence can matter beyond the immediate outcome because it may alter the conditions under which later decisions are made.
 
-The relevant question is therefore broader than:
+The analytical challenge is to distinguish:
 
-> What happened?
+- what occurred
+- what changed
+- what may have contributed to the change
+- what remains uncertain
 
-It becomes:
-
-> How did the system change and what does that change imply for what happens next?
-
-The specific methods used to represent, attribute or evaluate consequences are intentionally outside the public research layer.
+This repository discusses that distinction conceptually without publishing proprietary attribution or evaluation methods.

@@ -1,42 +1,50 @@
 # Public vs Private
 
-This repository presents the public research direction behind State-Active Intelligence.
+This repository is deliberately designed as a public research layer rather than a technical disclosure of the underlying system.
 
-Its purpose is to communicate:
+## Public
 
-- The problem being explored
-- The core research thesis
-- Conceptual distinctions
-- High-level design principles
-- Thought experiments
-- Comparative reasoning
-- Open research questions
+Public material may include:
 
-The repository intentionally excludes implementation-specific information that could reveal how proprietary systems are constructed.
+- problem framing
+- conceptual distinctions
+- high-level principles
+- comparative reasoning
+- thought experiments
+- research questions
+- references
+- broad statements about research direction
 
 ## Private
 
 Private material may include:
 
-- Implementation architecture
-- Formal schemas
-- Internal ontologies
-- Proprietary models
-- Inference methods
-- Decision logic
-- Behavioral modeling methods
-- Personal-state modeling methods
-- Evaluation methodology
-- Internal experiments
-- Proprietary datasets
-- Operational architecture
-- Safety and governance implementation details
-- Internal thresholds, scoring and policies
+- implementation architecture
+- formal schemas and internal representations
+- proprietary mechanisms
+- internal decision procedures
+- internal scoring or thresholds
+- operational workflows
+- private datasets
+- evaluation datasets and internal benchmarks
+- experimental results that reveal mechanisms
+- safety and governance implementation details
+- integration specifics
+- internal nomenclature whose meaning reveals system structure
+- any combination of individually innocuous details that materially improves reconstructability
 
-## Research Boundary
+## Disclosure test
 
-Public material describes the research direction and conceptual problem.
+A useful question for every proposed publication is:
 
-It should not be interpreted as a complete technical specification or as a disclosure of the implementation of any private system.
+> **Could a technically capable reader combine this information with the rest of the repository and derive a materially similar implementation path?**
 
-The public repository intentionally describes **what is being explored and why** while implementation-specific **how** remains private.
+When the answer approaches yes, the material belongs outside the public repository.
+
+The boundary is therefore based on reconstructability rather than on whether an individual sentence appears harmless in isolation.
+
+## Research principle
+
+The public layer should make the intellectual problem understandable.
+
+The private layer should retain the mechanisms that solve it.

@@ -1,12 +1,16 @@
 # State-Active Intelligence
 
-State-Active Intelligence treats the system's own intervention as part of the state transition it must reason about.
+State-Active Intelligence is used here as a research label for intelligence operating on systems whose relevant conditions can evolve over time.
 
-| Paradigm | Primary question |
+| Paradigm | Primary emphasis |
 |---|---|
-| Predictive AI | What is likely to happen? |
-| Context-aware AI | What does the context imply? |
-| Agentic AI | What action should the system take? |
-| World models | What may happen under an action? |
-| Decision intelligence | What decision creates value? |
-| **State-Active Intelligence** | **What happens when the intervention changes the state being modeled?** |
+| Predictive AI | Estimating likely outcomes |
+| Context-aware AI | Incorporating circumstances |
+| Agentic AI | Planning and taking action |
+| World models | Reasoning about possible system evolution |
+| Decision intelligence | Improving consequential decisions |
+| **State-Active Intelligence** | **Reasoning when the conditions being modeled can evolve and may be influenced by action** |
+
+The table describes conceptual positioning only.
+
+It does not specify the mechanisms, representations or architecture used by any private system.

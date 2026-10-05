@@ -1,13 +1,11 @@
 # Closed-Loop Intelligence
 
-State-Active Intelligence considers intelligence as part of an evolving system rather than as an external observer.
+Closed-loop intelligence describes a class of systems in which later observations can depend on prior actions and changing conditions.
 
-The system observes changing conditions, reasons about possible outcomes and may act in ways that influence what happens next.
+The important conceptual property is feedback.
 
-This creates a continuous relationship between:
+What is learned at one point can influence a later decision. That decision can alter subsequent conditions. Subsequent observations can then change what the system believes.
 
-**state → intelligence → action → changing state**
+The research interest is the integrity of reasoning across that changing loop.
 
-The research question is how intelligence should operate when the system it observes can evolve over time and can also be influenced by the intelligence itself.
-
-The implementation details of this process remain outside the public research layer.
+The specific structure, controls and mechanisms used in private implementations are excluded from this repository.

@@ -1,47 +1,36 @@
 # References
 
-This repository maintains a public research trail for ideas relevant to State-Active Intelligence.
+This repository maintains a public research trail for fields relevant to evolving-system intelligence.
 
-The references are intended to provide intellectual context, identify related fields and support ongoing research.
+Relevant domains include:
 
-They may span areas including:
-
-- Decision intelligence
-- Complex and adaptive systems
-- Causal inference
-- Behavioral science
-- Human behavior and decision-making
-- Human-AI interaction
-- Agentic AI
-- World models
-- State estimation and temporal reasoning
-- Intervention and feedback systems
+- decision intelligence
+- causal inference
+- complex and adaptive systems
+- behavioral science
+- human-AI interaction
+- temporal reasoning
+- state estimation
+- intervention and feedback systems
 - AI evaluation
-- Safety, governance and human agency
+- governance and human agency
 
-References are maintained as a research trail rather than as an implementation dependency.
+## Research use
 
-## Research Use
+References provide intellectual context for the research. They may inform terminology, problem framing, hypotheses, comparative analysis or evaluation questions.
 
-A reference does not imply that State-Active Intelligence adopts a particular method, architecture or implementation described by that source.
+A reference does not imply adoption of a particular method or implementation.
 
-Related work may inform:
+## Disclosure boundary
 
-- problem framing
-- terminology
-- hypotheses
-- comparative analysis
-- research questions
-- evaluation design
+Public references are intentionally separated from unpublished implementation work.
 
-The repository distinguishes publicly available research context from proprietary or unpublished implementation work.
+This repository does not publish private system architecture, proprietary mechanisms, formal internal representations, implementation procedures, private data, internal evaluation artifacts or other material whose combination could make the underlying system reconstructible.
 
-## Intellectual Property Boundary
+The public trail explains the surrounding intellectual landscape.
 
-This repository intentionally avoids publishing unpublished implementation details, proprietary decision logic, protected mechanisms, private datasets, internal evaluation artifacts or other material that could disclose the underlying implementation of systems being developed from this research direction.
-
-Public references therefore provide context for the research without constituting a disclosure of the complete implementation.
+It leaves the private design undisclosed.
 
 ## Status
 
-This is an evolving research trail. References may be added, revised or reorganized as the research develops.
+This is an evolving research bibliography and may change as the research develops.

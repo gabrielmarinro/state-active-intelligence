@@ -1,43 +1,35 @@
 # Design Principles
 
-## 1. Model the real human
+## 1. Treat state as temporal
 
-A human is a dynamic system rather than a static profile.
+A system should be understood as changing across time rather than as a frozen representation.
 
-AI systems should account for changing behavior, context, experience and internal state without assuming that historical patterns remain permanently valid.
+## 2. Separate epistemic status
 
-## 2. Separate epistemic states
+Established knowledge, observation, inference, prediction, decision and subsequent outcome represent different epistemic conditions.
 
-The system should distinguish what is known, observed, inferred, predicted and decided.
+## 3. Preserve uncertainty
 
-Evidence, inference and uncertainty should remain explicitly separated.
+Missing evidence, ambiguity and uncertainty should remain distinguishable from stronger claims.
 
-## 3. Preserve human agency
+## 4. Treat context as dynamic
 
-Recommendation, intervention and human decision are distinct concepts.
+Behavior and system conditions can change when circumstances change. Historical regularity should therefore be treated as evidence with temporal scope rather than as permanent truth.
 
-The system should support human agency rather than assume compliance.
+## 5. Preserve agency
 
-## 4. Model uncertainty explicitly
+Assistance, recommendation, action and human choice are distinct concepts. Intelligence should preserve the distinction even when the system participates in a decision process.
 
-Uncertainty is part of the state being reasoned about.
+## 6. Account for endogenous effects
 
-The system should preserve ambiguity when available evidence does not support a stronger conclusion.
+An intervention may change the conditions that later observations describe. The intelligence system therefore becomes part of the environment it is attempting to understand.
 
-## 5. Account for change
+## 7. Prefer traceability over narrative certainty
 
-Human behavior and environmental conditions evolve over time.
+A conclusion should remain connected to the evidentiary conditions that support it and to the uncertainty that remains.
 
-AI systems should be designed to recognize that yesterday's model may become insufficient for today's state.
+## 8. Design for re-evaluation
 
-## 6. Close the loop
+A conclusion about a changing system should remain revisable as new evidence changes the state of knowledge.
 
-**Observe → understand → predict → act → observe again → learn.**
-
-The outcome of an action should become evidence for subsequent reasoning.
-
-## 7. Treat intervention as part of the system
-
-When intelligence acts upon a system, that action may alter the state being modeled.
-
-The intelligence must therefore account for its own influence when reasoning about subsequent states and outcomes.
+> These principles describe the public research layer. Formal mechanisms, representations, procedures and implementation details remain private.

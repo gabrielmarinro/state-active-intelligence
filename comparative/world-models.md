@@ -1,9 +1,15 @@
 # World Models
 
-World models reason about environments, states and possible consequences of actions.
+World models reason about environments, states and possible future outcomes.
 
-State-Active Intelligence asks an additional question:
+The public research question explored here concerns systems where the modeled conditions can evolve and where actions may become part of that evolution.
 
-**What changes when the modeled system includes a human whose state can be altered by the intelligence itself?**
+This creates additional concerns around:
 
-The emphasis shifts toward endogenous state, intervention and human decision dynamics.
+- changing state
+- temporal validity
+- uncertainty
+- human agency
+- outcome interpretation
+
+The repository deliberately stays above implementation detail.

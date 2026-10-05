@@ -1,7 +1,11 @@
 # Decision Intelligence
 
-Decision intelligence connects data, analysis, prediction and action around decisions.
+Decision intelligence connects information, analysis and action around consequential decisions.
 
-State-Active Intelligence focuses on the dynamic relationship among decision, intervention and the evolving state that follows.
+The research direction explored here examines an additional dynamic:
 
-**Decision → intervention → consequence → new state → next decision.**
+**the conditions surrounding a decision can change as a consequence of decisions and subsequent events.**
+
+This raises questions about temporal validity, evidence, uncertainty and outcome interpretation.
+
+Implementation-specific decision mechanisms remain private.

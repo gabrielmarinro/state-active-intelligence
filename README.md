@@ -1,118 +1,88 @@
 # State-Active Intelligence
 
-## Intelligence that does more than observe or predict state
+## A research direction for intelligence operating on evolving systems
 
-State-Active Intelligence is a research and architecture framework for a class of AI systems that operate on changing state.
+State-Active Intelligence is a public research layer exploring a class of AI problems that emerge when the object of reasoning changes over time and intelligence can become part of the conditions that shape what happens next.
 
-The central question is:
+A static representation can describe a system at one moment. A useful intelligence system must also remain epistemically disciplined as observations accumulate, conditions change and consequences become new evidence.
 
-> **What happens when intelligence does more than observe and predict a system, and its own interventions can change the state being modeled?**
+The research therefore examines the relationship among:
 
-A human is a dynamic system rather than a static profile.
+**observation → interpretation → prediction → decision → action → consequence → changed conditions**
 
-Experience, behavior, cognition, context, constraints and environment can change over time. The same person may therefore behave differently under different conditions, and historical patterns may lose predictive relevance.
+The sequence is conceptual. Implementation remains private.
 
-This creates a different intelligence problem.
+## Why this matters
 
-The system must reason about:
+Many intelligence systems are evaluated as though the target were stable enough for a forecast to remain meaningful after it is produced. Many real systems violate that assumption.
 
-**state → context → uncertainty → prediction → decision → intervention → consequence → new state**
+People change. Organizations change. Environments change. Constraints change. Intentions change. An action can also alter the conditions that later observations describe.
 
-The intervention can affect the system.
+This creates a deeper problem than prediction accuracy:
 
-The environment can change the system.
+> **How should intelligence reason when the system being modeled evolves and intelligence may influence that evolution?**
 
-The system can change independently of the intervention.
+The answer requires more than better models. It requires explicit treatment of evidence, uncertainty, time, agency, change and consequences.
 
-The resulting state can change what becomes likely next.
+## Public research scope
 
-## Research direction
+This repository documents the public conceptual layer of the research:
 
-State-Active Intelligence explores the architectural and epistemic requirements for intelligence systems operating within evolving systems.
+- problem framing
+- epistemic distinctions
+- high-level principles
+- comparative positioning
+- thought experiments
+- research questions
+- public references
+- explicit boundaries around unpublished work
 
-The research focuses on questions involving:
+The repository is designed to make the intellectual direction inspectable while keeping implementation-specific mechanisms private.
 
-- changing human state
-- changing environments
-- uncertainty and incomplete observability
-- human agency
-- intervention effects
-- consequences and feedback
-- temporal adaptation
-- reproducible and auditable decision processes
+## Epistemic discipline
 
-The work distinguishes what is known, observed, inferred and subsequently observed to preserve epistemic discipline as state evolves.
+A central concern is maintaining the distinction among:
 
-## The Shift
+**what is established → what was observed → what is inferred → what is predicted → what was decided → what subsequently occurred**
 
-Traditional intelligence can be represented as:
+These categories can interact. They remain conceptually distinct.
 
-**observe → infer → predict**
+A claim becoming plausible does not make it observed. Repeated observation does not establish causality by itself. A prediction followed by an outcome does not establish that the prediction caused the outcome.
 
-State-active intelligence asks what happens when the loop continues:
+That discipline becomes increasingly important as intelligence moves from passive analysis toward action.
 
-**observe → understand → predict → act → observe again → learn**
+## Human systems
 
-The important distinction is that action can influence the state being modeled.
+Human behavior is especially challenging because a person can change across time, context and circumstance.
 
-## Design Principles
+Historical behavior can remain informative while becoming less representative. A declared intention can differ from observed behavior. An intervention can influence attention or behavior. External conditions can change independently.
 
-The research follows a small set of principles:
+The research therefore treats human-centered intelligence as an evolving-system problem rather than a static-profile problem.
 
-1. **Model the real human**  
-   Humans are dynamic rather than static profiles.
+## Research boundary
 
-2. **Separate epistemic states**  
-   Observation, inference, prediction, decision and outcome remain distinct.
+This repository deliberately excludes unpublished implementation details that could make the underlying system reconstructible.
 
-3. **Preserve human agency**  
-   Recommendation, intervention and human decision are different concepts.
+That includes proprietary mechanisms, formal internal representations, operational procedures, decision criteria, private evaluation artifacts, implementation architecture, internal datasets and other material whose disclosure would materially reduce the separation between the public research layer and the private system.
 
-4. **Model uncertainty explicitly**  
-   Unknown and uncertain states remain explicit.
+The public layer communicates **what problem is being explored, why it matters and which conceptual distinctions are useful**.
 
-5. **Account for change**  
-   Human behavior and environments evolve over time.
-
-6. **Close the loop**  
-   New state becomes evidence for subsequent reasoning.
-
-7. **Treat intervention as part of the system**  
-   Intelligence can influence the state it is attempting to understand.
-
-## Research Boundary
-
-This repository describes the research problem, conceptual framework, principles and open questions.
-
-It intentionally does not publish implementation-specific architectures, proprietary decision logic, protected research artifacts or unpublished mechanisms.
-
-## Open Questions
-
-The repository documents unresolved questions around:
-
-- how human state should be represented as it changes
-- how changing environments should be incorporated
-- how historical patterns should be reconciled with current evidence
-- how intervention effects should be evaluated
-- how human agency should constrain intervention
-- how uncertainty should propagate through closed decision loops
-- how such systems should remain auditable as both the human and the environment evolve
+It leaves the private **how** outside the repository.
 
 ## Status
 
-State-Active Intelligence is an active research and architecture effort.
+State-Active Intelligence is an active research direction.
 
-Conceptual material published here should be understood as a research direction rather than as a claim that all proposed capabilities have been empirically validated.
+Published material should be read as conceptual research and hypothesis formation. It does not imply that every capability described here has been implemented or empirically validated.
 
-## Public Research
+## Repository map
 
-This repository contains the public research layer of the work, including:
-
-- the problem definition
-- the conceptual shift
-- design principles
-- research questions
-- selected concepts
-- research boundaries
-- thought experiments
-- public references
+- [THE_PROBLEM.md](THE_PROBLEM.md): problem framing
+- [THE_SHIFT.md](THE_SHIFT.md): conceptual shift
+- [DESIGN_PRINCIPLES.md](DESIGN_PRINCIPLES.md): public design principles
+- [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md): unresolved research questions
+- [REFERENCES.md](REFERENCES.md): public research trail
+- [comparative/](comparative/): neighboring paradigms
+- [concepts/](concepts/): public conceptual vocabulary
+- [thought-experiments/](thought-experiments/): boundary cases and implications
+- [research-boundary/PUBLIC_VS_PRIVATE.md](research-boundary/PUBLIC_VS_PRIVATE.md): disclosure boundary

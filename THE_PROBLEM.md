@@ -1,24 +1,24 @@
 # The Problem
 
-AI systems increasingly understand context, maintain memory, use tools, reason over environments and execute actions.
+AI can increasingly observe context, retain information, reason over changing environments and participate in decisions.
 
-A deeper problem emerges when the object being modeled is a changing human.
+The deeper difficulty appears when the object of reasoning is itself dynamic.
 
-Humans are dynamic systems. Behavior, cognition, context, constraints, experience and environment continuously interact.
+A person, organization or operational system can change because of experience, circumstance, external conditions, internal conditions, decisions or interactions with the intelligence system itself.
 
-A system that models a human therefore faces a problem that static profiles and isolated predictions cannot fully capture:
+That creates several coupled problems:
 
-- human state changes over time
+- the current state can diverge from historical patterns
 - behavior can differ from stated intention
-- environments change
-- previous patterns can lose predictive relevance
-- interventions can influence subsequent behavior
-- the system itself can become part of the environment it models
+- relevant context can change
+- uncertainty can increase or decrease over time
+- interventions can influence subsequent conditions
+- outcomes can become evidence for later reasoning
 
-This creates a fundamental challenge for AI decision systems:
+The core research problem is therefore:
 
-> **How should intelligence reason about a changing system when the system being modeled can change independently, can respond to the intelligence and may evolve over time?**
+> **How should intelligence reason over an evolving system when observations, decisions, actions and consequences can all participate in subsequent change?**
 
-The problem is therefore larger than prediction alone.
+This moves the problem beyond isolated prediction.
 
-It involves state, uncertainty, change, intervention, consequence and learning.
+The research concern is the integrity of reasoning across change.

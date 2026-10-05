@@ -1,15 +1,13 @@
 # Intervention Changes State
 
-A system predicts that a person is unlikely to complete a task.
+Consider a system that estimates a future behavior and then provides an intervention.
 
-The system intervenes.
+The intervention may influence attention, priorities or behavior.
 
-The intervention changes attention, motivation or behavior.
+The future outcome can therefore reflect both the original conditions and what happened after the system acted.
 
-Behavior changes the probability of completion.
+The useful question is:
 
-The original prediction is therefore part of a causal sequence rather than a neutral forecast.
+> **How should the result be interpreted when the act of using the prediction may have changed the outcome?**
 
-**What exactly did the system predict?**
-
-**Which outcome belongs to the human, and which outcome was partially created by the intervention?**
+The example is conceptual. It reveals a research problem without specifying a solution.

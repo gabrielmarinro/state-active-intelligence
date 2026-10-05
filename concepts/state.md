@@ -1,17 +1,15 @@
 # State
 
-State represents the condition of a system at a particular point in time.
+State is the condition of a system at a particular point in time.
 
-For systems involving humans, state can evolve as circumstances, experience, behavior, goals and surrounding conditions change.
+For evolving systems, state is:
 
-State is therefore:
+- temporal
+- contextual
+- dynamic
 
-- Temporal
-- Contextual
-- Dynamic
+A current condition can differ materially from historical conditions even when some underlying characteristics appear persistent.
 
-A current state may differ materially from historical patterns.
+The research question is how intelligence should reason across those changes while preserving uncertainty and epistemic traceability.
 
-State-Active Intelligence explores how intelligence can reason about changing state without assuming that previous observations remain permanently representative.
-
-The formal representation and internal state model remain outside the public research layer.
+Formal state representations remain outside the public layer.

@@ -1,49 +1,57 @@
 # Open Questions
 
-## Human State
+## State
 
-- How should AI systems represent human state when it changes continuously?
-- Which aspects of human state should be treated as persistent versus temporary?
-- How should stated intention be distinguished from observed behavior?
+- How should changing system state be represented without collapsing temporary conditions into permanent attributes?
+- How should historical information be weighted as state changes?
+- What signals indicate that an earlier representation has become materially less useful?
 
-## Temporal Change
+## Time
 
-- How should AI systems recognize when historical patterns lose predictive relevance?
-- How should changing beliefs, priorities and behavior be represented over time?
-- When does behavioral variation become evidence of meaningful change?
+- How should intelligence distinguish persistence from transition?
+- How should recent evidence interact with longer historical patterns?
+- How should temporal relevance be evaluated when change is gradual?
 
-## Environment
+## Evidence
 
-- How should changing external conditions be incorporated into decision intelligence?
-- How should systems distinguish environmental change from human perception of that change?
-- How should environmental information be evaluated for relevance to an individual?
+- How should systems preserve the distinction between observed information and interpretation?
+- How should contradictory observations coexist without premature resolution?
+- How should absence of evidence remain distinct from evidence of absence?
 
-## Prediction
+## Human behavior
 
-- What does a correct prediction mean when the target state is changing?
-- How should models behave when historical evidence conflicts with recent evidence?
-- How should predictive uncertainty evolve as the underlying system changes?
+- How should stated intention, observed behavior and subsequent behavior be related over time?
+- How should a system reason about behavioral change without reducing a person to a static label?
+- How should contextual effects be separated from persistent characteristics?
 
 ## Intervention
 
-- How should predictions account for interventions that can influence subsequent behavior?
-- How should intervention effects be evaluated?
-- What happens when an intervention changes the very state being predicted?
+- What changes in reasoning when an action may affect later observations?
+- How should outcomes be interpreted when both the environment and the intervention contribute to change?
+- How should intervention effects be evaluated without confusing correlation with attribution?
 
-## Human Agency
+## Decision quality
 
-- How should autonomous intervention remain bounded by human agency?
-- How should systems distinguish assistance, recommendation and intervention?
-- How should people remain able to understand and challenge system conclusions?
+- What constitutes a useful decision under uncertainty?
+- How should competing objectives and constraints be represented conceptually?
+- How should a system communicate uncertainty without making the result unusable?
 
-## Epistemic Boundaries
+## Auditability
 
-- Where should observation end and inference begin?
-- How should unknown remain distinguishable from missing evidence?
-- How should uncertainty propagate through complex decision loops?
+- What evidence should remain available for later reconstruction of why a conclusion was reached?
+- How can a changing system remain comparable across time?
+- What does reproducibility mean when the underlying state itself changes?
+
+## Governance
+
+- Which boundaries should constrain action in human-centered intelligence systems?
+- How should people understand, challenge or override system conclusions?
+- How should sensitive or high-impact uses be constrained before action?
 
 ## Architecture
 
-- What architectural primitives are required for intelligence systems operating on evolving state?
-- How should state, evidence, prediction, intervention and consequence interact over time?
-- How should such systems remain reproducible and auditable as the underlying world changes?
+- Which abstractions are fundamental to evolving-system intelligence?
+- Which responsibilities should remain independent to preserve epistemic integrity?
+- Which architectural choices can be discussed publicly without exposing proprietary mechanisms?
+
+The purpose of these questions is deliberate: the public research layer should expose the problem space while the private system retains the implementation-specific solutions.

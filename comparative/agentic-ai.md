@@ -1,9 +1,11 @@
 # Agentic AI
 
-Agentic AI introduces goals, planning, tool use and action.
+Agentic systems emphasize goals, planning, tool use and action.
 
-State-Active Intelligence focuses on a related but distinct property:
+State-Active Intelligence is concerned with a different analytical question:
 
-**the consequences of acting on a state that is itself changing because of the system's actions.**
+**What changes in the reasoning problem when action can alter the conditions under analysis?**
 
-Agency becomes part of the state transition problem.
+The distinction concerns system dynamics rather than a particular agent architecture.
+
+This repository does not disclose implementation mechanisms for addressing that problem.

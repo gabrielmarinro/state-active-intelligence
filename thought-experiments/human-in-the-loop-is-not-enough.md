@@ -1,11 +1,13 @@
 # Human in the Loop Is Not Enough
 
-A human can remain in the loop while the system still models that human as a static decision point.
+A system can include a human approval step and still reason about that human as though their condition were fixed.
 
-The harder problem is temporal and causal:
+The deeper question is temporal:
 
-**human state → system intervention → human response → new state**
+**conditions → system output → human response → changed conditions**
 
-Human agency therefore requires more than approval at the end of a workflow.
+Human agency therefore raises questions beyond approval or oversight.
 
-It requires reasoning about the evolving state of the human throughout the decision loop.
+The relevant issue is how intelligence interprets and responds to change while leaving room for human judgment.
+
+This thought experiment intentionally avoids implementation detail.

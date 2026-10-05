@@ -1,25 +1,19 @@
 # Static Profile Failure
 
-A user profile says:
+Consider a profile that describes a person as highly consistent.
 
-**highly disciplined**
+Later behavior changes.
 
-The user misses three consecutive commitments.
+Several interpretations remain possible:
 
-Is the profile wrong?
+- the circumstances changed
+- the person's priorities changed
+- the environment changed
+- the earlier profile was too coarse
+- the behavior was temporary
 
-Is the behavior anomalous?
+The point is methodological:
 
-Did context change?
+**A stable label can conceal an unstable system.**
 
-Did cognitive load change?
-
-Did the user's objective change?
-
-Did the environment change?
-
-Did the AI intervention itself change behavior?
-
-Or was the profile never the right abstraction?
-
-**A system designed around static identity can misinterpret dynamic behavior.**
+Intelligence operating over humans therefore needs a way to reason about change without turning historical regularities into permanent identity claims.
