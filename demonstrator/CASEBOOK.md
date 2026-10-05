@@ -4,19 +4,19 @@ The benchmark contains 24 synthetic cases across healthcare, legal, finance and 
 
 Each case contains:
 
-**T0**  
+**T0**
 The initial condition.
 
-**T1**  
+**T1**
 A subsequent change.
 
-**T2**  
+**T2**
 A later observation.
 
-**Evaluation property**  
+**Evaluation property**
 The behavior the benchmark is designed to test.
 
-**Failure mode**  
+**Failure mode**
 A common way contextual reasoning can fail.
 
 Four cases are controls in which the new information should not materially change the current interpretation.
