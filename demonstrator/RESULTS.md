@@ -4,35 +4,43 @@
 
 ### Evidence status
 
-This release establishes the public demonstrator and evaluation protocol.
+This release establishes a public synthetic benchmark for contextual relevance in evolving domain intelligence.
 
-It does not claim empirical superiority of any private system.
+It contains:
 
-The scenarios are designed to make the research phenomenon testable.
+- 24 synthetic cases
+- 4 domains
+- 20 change-sensitive cases
+- 4 control cases
+- 7 public evaluation dimensions
 
-## Expected observable pattern
+No proprietary system results are reported in this release.
 
-The public result format compares how an intelligence system responds before and after a meaningful contextual change.
+## What the benchmark tests
 
-| Stage | Domain knowledge | Human / system context | Expected reasoning property |
-|---|---|---|---|
-| T0 | Stable | Initial condition | Establish interpretation |
-| T1 | Stable | Changed condition | Re-evaluate relevance |
-| T2 | Stable | Subsequent behavior or outcome | Update interpretation |
+The benchmark tests whether a system can distinguish:
 
-The key observation is:
+**stable domain knowledge**
 
-> Stable domain knowledge does not imply stable contextual relevance.
+from
 
-## Future empirical releases
+**changing human or operational context**
 
-Future versions may report results from public datasets or synthetic evaluation fixtures.
+and whether it can update its interpretation selectively when the evidence warrants change.
 
-When empirical results are published, the repository will distinguish:
+The benchmark also tests the opposite behavior:
+
+> New information should not automatically cause a new conclusion.
+
+## Public result format
+
+Future model evaluations will report aggregate performance by dimension and domain.
+
+A result should distinguish:
 
 **Observed result**
 
-What the evaluation directly measured.
+What was directly measured.
 
 **Interpretation**
 
@@ -42,4 +50,12 @@ What the observed result may suggest.
 
 What remains to be tested.
 
-No public result will be used to disclose proprietary mechanisms.
+Individual model outputs may be published when licensing and disclosure conditions permit.
+
+No benchmark result should be used to disclose proprietary mechanisms.
+
+## Core hypothesis
+
+> **Specialized domain intelligence can remain stable while the contextual relevance of that intelligence changes as a person's relationship with the domain evolves.**
+
+The benchmark exists to test this hypothesis empirically.

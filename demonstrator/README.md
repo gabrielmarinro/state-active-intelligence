@@ -4,17 +4,17 @@
 
 ### From domain intelligence to intelligence that remains relevant as people and contexts evolve
 
-Most specialized AI systems are optimized around a domain.
+Specialized AI can be highly capable within a domain.
 
-A medical intelligence system knows medicine.
+A medical system can reason about healthcare.
 
-A legal intelligence system knows law.
+A legal system can reason about law.
 
-A financial intelligence system knows finance.
+A financial system can reason about finance.
 
-An operational intelligence system knows operations.
+An operational system can reason about operations.
 
-A different problem emerges when the relevant object is not only the domain, but the evolving relationship between a particular person and that domain.
+A different problem emerges when the relevant object includes the evolving relationship between a particular person and the domain.
 
 A person can change.
 
@@ -28,73 +28,61 @@ Their trust can change.
 
 Their willingness to act can change.
 
-The relevance of historical information can therefore change even when the domain itself remains the same.
+The relevance of historical information can therefore change even when the domain itself remains stable.
 
-This demonstrator makes that phenomenon observable.
+This demonstrator makes that phenomenon testable.
 
-## Core research question
+## Research question
 
-> How should specialized intelligence adapt when the person, the context or the relationship with the domain evolves over time?
+> **How should specialized intelligence adapt when the person, context or relationship with the domain evolves over time?**
 
-## What the demonstrator shows
+## Benchmark hypothesis
 
-The public artifact compares two conceptual approaches:
+A domain can remain stable while contextual relevance changes.
 
-**Snapshot-oriented domain intelligence**
+A strong system should therefore:
 
-Reasons primarily from the information available at a particular point.
+- recognize material change
+- preserve historical evidence without treating it as permanently representative
+- distinguish observation from interpretation
+- preserve uncertainty
+- re-evaluate when warranted
+- remain stable when new information is irrelevant
 
-**Evolving-context domain intelligence**
+## What is public
 
-Treats the current relationship among person, domain and context as potentially different from the historical snapshot.
+The artifact exposes:
 
-The demonstrator does not claim that one specific architecture is the unique solution.
+- synthetic cases
+- temporal transitions
+- control cases
+- evaluation dimensions
+- public scoring criteria
+- aggregate results when available
 
-It demonstrates a research phenomenon.
-
-## Public boundary
-
-The demonstrator intentionally exposes:
-
-- scenarios
-- observable state changes
-- temporal progression
-- public evaluation criteria
-- illustrative outputs
-- research interpretation
-
-The demonstrator intentionally excludes:
+It does not expose:
 
 - proprietary mechanisms
 - internal representations
 - implementation architecture
-- model-specific prompts
+- model-specific system prompts
 - decision procedures
-- scoring or thresholds
 - private datasets
 - internal evaluations
 - system-specific operational workflows
 
-The public artifact is therefore behavior-oriented rather than mechanism-oriented.
+## Cross-domain scope
 
-## Important distinction
-
-The goal is not merely to know a person.
-
-The goal is to explore whether specialized intelligence can remain relevant as the way a person interacts with a domain changes over time.
-
-## Domains
-
-Healthcare, legal, finance and fleet operations are used as examples of the same underlying research problem.
+Healthcare, legal, finance and fleet operations are used as different manifestations of the same research problem.
 
 The domain changes.
 
-The research question remains.
+The benchmark question remains.
 
-## Evidence status
+## Safety boundary
 
-The scenarios in this version are public research fixtures intended to demonstrate the phenomenon.
+All scenarios are synthetic research fixtures.
 
-They are not clinical advice, legal advice, financial advice or operational instructions.
+They are not medical, legal, financial or operational advice.
 
-They do not represent production system results.
+No real-world action should be inferred from the examples.
