@@ -69,6 +69,14 @@ The public layer communicates **what problem is being explored, why it matters a
 
 It leaves the private **how** outside the repository.
 
+## Public Demonstrator
+
+The repository includes a cross-domain public demonstrator exploring how specialized intelligence can remain relevant as a person, system or relationship evolves over time.
+
+The demonstrator uses healthcare, legal, finance and fleet scenarios while maintaining a strict separation between observable research behavior and proprietary implementation mechanisms.
+
+See [demonstrator/](demonstrator/) and [demonstrator/index.html](demonstrator/index.html).
+
 ## Status
 
 State-Active Intelligence is an active research direction.

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Human-Context-Aware Intelligence</title>
+<style>
+body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;background:#f6f7f9;color:#111827}
+main{max-width:1040px;margin:0 auto;padding:56px 24px 80px}
+h1{font-size:42px;line-height:1.05;margin:0 0 14px}
+h2{margin-top:42px}
+p{font-size:17px;line-height:1.6}
+.subtitle{color:#4b5563;max-width:760px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0}
+button{border:1px solid #d1d5db;background:white;padding:10px 16px;border-radius:999px;cursor:pointer;font-size:15px}
+button.active{background:#111827;color:white;border-color:#111827}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+.card{background:white;border:1px solid #e5e7eb;border-radius:18px;padding:22px;box-shadow:0 8px 24px rgba(17,24,39,.05)}
+.label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#6b7280;margin-bottom:8px}
+.metric{font-size:24px;font-weight:700}
+.timeline{display:flex;gap:10px;margin:28px 0}
+.step{flex:1;border-top:3px solid #d1d5db;padding-top:12px}
+.step strong{display:block;margin-bottom:5px}
+.result{margin-top:18px;padding:16px;border-radius:14px;background:#f3f4f6}
+.disclaimer{font-size:13px;color:#6b7280;margin-top:30px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.timeline{flex-direction:column}.step{border-top:0;border-left:3px solid #d1d5db;padding:0 0 0 12px}}
+</style>
+</head>
+<body>
+<main>
+<h1>Human-Context-Aware Intelligence</h1>
+<p class="subtitle">
+A public black-box demonstration of a simple research question:
+what changes when specialized intelligence must remain relevant as a person, system or relationship evolves over time?
+</p>
+
+<div class="tabs" id="tabs"></div>
+<div id="content"></div>
+
+<h2>The research observation</h2>
+<div class="card">
+<p>
+The domain can remain constant while the person, system or surrounding context changes.
+When that happens, historical intelligence can remain useful without remaining fully representative.
+</p>
+<p>
+The public artifact demonstrates the observable distinction.
+It does not disclose the mechanism used to produce contextual reasoning.
+</p>
+</div>
+
+<p class="disclaimer">
+Illustrative research fixtures. No medical, legal, financial or operational advice is provided.
+</p>
+</main>
+
+<script>
+const cases = {
+  Healthcare: {
+    title:"Healthcare",
+    initial:"A person regularly interacts with a specialized health information service.",
+    change:"Engagement changes over time and surrounding circumstances also change.",
+    snapshot:"Continue relying primarily on the earlier interaction pattern.",
+    evolving:"Re-evaluate the current relationship before assuming the historical pattern remains representative.",
+    observation:"The domain remained stable. The person's relationship with the domain changed."
+  },
+  Legal: {
+    title:"Legal",
+    initial:"A legal AI evaluates a matter from the information available at an earlier stage.",
+    change:"A later event materially changes the matter.",
+    snapshot:"Treat the earlier interpretation as the dominant reference.",
+    evolving:"Reassess the matter in light of the changed context.",
+    observation:"The legal domain remained stable. The matter itself evolved."
+  },
+  Finance: {
+    title:"Finance",
+    initial:"A financial intelligence system evaluates a person from known circumstances and preferences.",
+    change:"Relevant constraints, priorities or behavior change.",
+    snapshot:"Continue using the earlier user representation as the primary reference.",
+    evolving:"Re-evaluate the current relationship between the person, domain and changed constraints.",
+    observation:"The financial domain remained stable. The user context changed."
+  },
+  Fleet: {
+    title:"Fleet / Operations",
+    initial:"An operational system is assessed under a known set of conditions.",
+    change:"Operating conditions change materially after the initial assessment.",
+    snapshot:"Continue relying primarily on the earlier assessment.",
+    evolving:"Reassess using the current operating context.",
+    observation:"The operating domain remained stable. The operating state changed."
+  }
+};
+
+const tabs=document.getElementById("tabs");
+const content=document.getElementById("content");
+
+function render(name){
+  const c=cases[name];
+  tabs.innerHTML=Object.keys(cases).map(k=>
+    `<button class="${k===name?'active':''}" onclick="render('${k}')">${k}</button>`
+  ).join("");
+
+  content.innerHTML=`
+    <div class="timeline">
+      <div class="step"><strong>T0</strong><span>Initial state</span></div>
+      <div class="step"><strong>T1</strong><span>Relevant change</span></div>
+      <div class="step"><strong>T2</strong><span>Re-evaluation</span></div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="label">Initial condition</div>
+        <p>${c.initial}</p>
+      </div>
+
+      <div class="card">
+        <div class="label">What changed</div>
+        <p>${c.change}</p>
+      </div>
+
+      <div class="card">
+        <div class="label">Snapshot-oriented intelligence</div>
+        <p>${c.snapshot}</p>
+      </div>
+
+      <div class="card">
+        <div class="label">Evolving-context intelligence</div>
+        <p>${c.evolving}</p>
+      </div>
+    </div>
+
+    <div class="result">
+      <div class="label">Observable phenomenon</div>
+      <div class="metric">${c.observation}</div>
+    </div>
+  `;
+}
+
+render("Healthcare");
+</script>
+</body>
+</html>
