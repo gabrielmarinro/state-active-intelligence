@@ -86,3 +86,19 @@ All scenarios are synthetic research fixtures.
 They are not medical, legal, financial or operational advice.
 
 No real-world action should be inferred from the examples.
+
+## Current public benchmark
+
+Version 0.2 expands the demonstrator into a 28-case cross-domain benchmark with 24 change-sensitive cases and 4 controls.
+
+Public evidence includes the benchmark fixtures, rubric, methodology, aggregate results, cross-judge agreement, adjudication summary and reproducibility description.
+
+The public release intentionally excludes internal prompts, evaluator implementation, raw runs, generated outputs, private experiments and proprietary implementation mechanisms.
+
+See:
+
+- [`RESULTS.md`](RESULTS.md)
+- [`benchmark/JUDGE_AGREEMENT_V0_2.md`](benchmark/JUDGE_AGREEMENT_V0_2.md)
+- [`benchmark/ADJUDICATION_SUMMARY_V0_2.md`](benchmark/ADJUDICATION_SUMMARY_V0_2.md)
+- [`REPRODUCIBILITY_V0_2.md`](REPRODUCIBILITY_V0_2.md)
+- [`benchmark/cases_v0.2.json`](benchmark/cases_v0.2.json)
