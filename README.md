@@ -2,13 +2,13 @@
 
 ## Every failed decision has a human state behind it. SAI finds it before failure.
 
-AI is becoming very good at knowing things: It can specialize in medicine, law, finance, operations and many other fields. It can analyze large amounts of information, find patterns, make predictions and recommend actions.
+AI is becoming very good at knowing things. It can specialize in medicine, law, finance, operations and many other fields. It can analyze large amounts of information, detect patterns, make predictions, diagnose problems and recommend actions.
 
-However, a different problem appears when **the person or system being analyzed changes while the intelligence is still using what it learned before**:
+Yet knowing the right decision is only part of the problem. **A correct decision can still fail because the person or system expected to carry it out changes.** A patient can change. A customer can change. A business can change. A fleet can operate under different conditions tomorrow than it did yesterday. Intelligence can remain highly accurate about what was true before while becoming increasingly disconnected from what is true now.
 
-A patient can change. A customer can change. A business can change. A fleet can operate under different conditions tomorrow than it did yesterday.
+SAI explores this missing dimension: **understanding the current state of the person or system behind the decision, how that state is changing and which factors may cause the expected action to continue, change or stop.** In medicine, the question becomes more than *“What treatment does this patient need?”* It becomes *“Will they finish it? What could make them stop? When will the warning signs appear? What could prevent that?”*
 
-SAI explores what intelligence needs to do when **what was true before may no longer be the best description of what is true now**.
+The underlying problem is broader than prediction. **What was true before may no longer be the best description of what is true now. And even the right decision can fail when the state behind it changes.** SAI explores what intelligence needs to observe, infer and anticipate when that happens.
 
 ## The idea
 
