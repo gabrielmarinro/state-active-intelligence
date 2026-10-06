@@ -22,22 +22,35 @@ That is the distinction this public demonstrator begins to test.
 
 ## Public evidence
 
-The demonstrator covers healthcare, legal, finance and fleet operations.
+The demonstrator covers **28 controlled scenarios across four domains: healthcare, legal, finance and fleet operations.**
 
-Across **28 controlled scenarios**, it tests both sides of the problem:
+The scenarios are not variations of the same test. They examine different ways a situation can evolve over time:
 
-- when something important changes, intelligence should recognize that it matters;
-- when new information is only noise, intelligence should not change unnecessarily.
+**sustained change · reversal · conflicting signals · weak new evidence · lagged context · feedback loops · transient anomalies**
+
+This creates a more demanding question than simply asking whether intelligence can detect change.
+
+It asks whether intelligence can distinguish between:
+
+**a change that should alter the current interpretation,**
+
+and
+
+**a change that should not.**
+
+Each scenario is evaluated across the dimensions that matter when context evolves: recognizing the current state, understanding what evidence is still relevant, distinguishing observed behavior from intention or inference, weighting new evidence appropriately, preserving uncertainty, understanding contextual relevance, tracking interaction trajectories and considering consequences.
+
+The benchmark therefore tests both **adaptation** and **restraint**.
 
 When a scenario required adaptation because something important had changed, the evaluated capability reached **98.6% of the available score**.
 
-When the new information should not materially change the interpretation, it reached **91.7%**.
+When new information should not materially change the interpretation, it reached **91.7%**.
 
-In other words:
+Across the complete evaluation, it reached **97.6%**.
 
-**when reality changed, it usually changed its response; when reality had not meaningfully changed, it usually did not.**
+In plain terms:
 
-The full methodology and evidence are available in [RESULTS.md](RESULTS.md), [benchmark/JUDGE_AGREEMENT_V0_2.md](benchmark/JUDGE_AGREEMENT_V0_2.md), [benchmark/ADJUDICATION_SUMMARY_V0_2.md](benchmark/ADJUDICATION_SUMMARY_V0_2.md) and [REPRODUCIBILITY_V0_2.md](REPRODUCIBILITY_V0_2.md).
+**when reality changed, the evaluated responses usually changed with it. When reality had not meaningfully changed, they usually did not.**
 
 ## Methodological note
 
