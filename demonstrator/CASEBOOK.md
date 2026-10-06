@@ -9,7 +9,7 @@ The benchmark therefore tests both sides of the problem:
 - **Adaptation:** when meaningful evidence indicates that the current state has changed, intelligence should recognize that the older picture may no longer be sufficient.
 - **Restraint:** when new information is weak, temporary, conflicting or irrelevant, intelligence should avoid creating a change that the evidence does not support.
 
-Each case below is written for human readers. The underlying benchmark definitions remain machine-readable in [`benchmark/cases_v0.2.json`](benchmark/cases_v0.2.json).
+Each case below is written for human readers. Machine-readable benchmark definitions and execution artifacts remain outside the public repository.
 
 ## Healthcare
 

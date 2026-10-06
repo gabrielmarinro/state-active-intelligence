@@ -55,3 +55,6 @@ demonstrator/benchmark/run_benchmark*.py
 demonstrator/benchmark/evaluate_benchmark*.py
 demonstrator/benchmark/runs/
 runs/
+
+# Public benchmark source definitions — keep out of public repository
+demonstrator/benchmark/*.json

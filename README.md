@@ -60,7 +60,7 @@ It tests a simple distinction:
 
 **When something important changes, does the intelligence recognize that it should reconsider its interpretation? And when the new information is only noise, does it know when not to change?**
 
-See [demonstrator/](demonstrator/) and [demonstrator/index.html](demonstrator/index.html).
+See [demonstrator/README.md](demonstrator/README.md), [demonstrator/CASEBOOK.md](demonstrator/CASEBOOK.md) and [demonstrator/RESULTS.md](demonstrator/RESULTS.md).
 
 ## Status
 
