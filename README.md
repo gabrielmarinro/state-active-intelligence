@@ -4,11 +4,11 @@
 
 AI is becoming very good at knowing things: It can specialize in medicine, law, finance, operations and many other fields. It can analyze large amounts of information, find patterns, make predictions and recommend actions.
 
-However, a different problem appears when **the person or system being analyzed changes while the intelligence is still using what it learned before**.
+However, a different problem appears when **the person or system being analyzed changes while the intelligence is still using what it learned before**:
 
 A patient can change. A customer can change. A business can change. A fleet can operate under different conditions tomorrow than it did yesterday.
 
-State-Active Intelligence explores what intelligence needs to do when **what was true before may no longer be the best description of what is true now**.
+SAI explores what intelligence needs to do when **what was true before may no longer be the best description of what is true now**.
 
 ## The idea
 
