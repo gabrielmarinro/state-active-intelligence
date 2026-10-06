@@ -1,83 +1,76 @@
 # Public Results
 
-## Version 0.1
-
-The first public release established a synthetic benchmark for contextual relevance in evolving domain intelligence.
-
-It contained:
-
-- 24 synthetic cases
-- 4 domains
-- 20 change-sensitive cases
-- 4 control cases
-- 7 public evaluation dimensions
-
-No proprietary system results were reported in Version 0.1.
-
 ## Version 0.2
 
-Version 0.2 expands the public benchmark to test a broader set of temporal and contextual patterns.
+The current public benchmark contains **28 controlled scenarios** across healthcare, legal, finance and fleet operations.
 
-### Benchmark composition
+It includes:
 
-- 28 synthetic cases
-- 4 domains
-- 24 change-sensitive cases
-- 4 control cases
-- 8 public evaluation dimensions
-- 7 temporal/contextual patterns represented across the benchmark
+- **24 change-sensitive scenarios**
+- **4 stability-control scenarios**
+- **8 public evaluation dimensions**
+- **7 temporal and contextual patterns**
 
-The four domains are healthcare, legal, finance and fleet operations.
+The benchmark tests both sides of the capability:
 
-### Evaluation design
+**recognize meaningful change — and resist unnecessary change.**
 
-The same fixed generated response set was evaluated by two separate judge configurations using the public rubric.
+## What the numbers mean
 
-Each applicable dimension was scored on a 0–2 scale.
+When a situation genuinely changed and the intelligence needed to adapt, the evaluated capability reached **98.6% of the available score**.
 
-Aggregate performance is calculated as:
+When new information should not materially change the interpretation, it reached **91.7%**.
+
+Across the complete evaluation, it reached **97.6%** of the available score after disagreement review.
+
+In plain terms:
+
+> **When reality changed, it usually changed its response. When reality had not meaningfully changed, it usually did not.**
+
+## Evaluation design
+
+The same fixed generated response set was evaluated using two separate judge configurations and the public rubric.
+
+Each applicable dimension received a score from 0 to 2.
+
+Aggregate performance is:
 
 **total awarded points / total applicable points × 100**
 
-The two judge configurations were compared before disagreements were adjudicated against the public rubric and case expectations.
+Before adjudication:
 
-### Aggregate results
+| Evaluation | Judge A | Judge B |
+|---|---:|---:|
+| Overall | 94.9% | 96.7% |
+| Change-sensitive scenarios | 95.8% | 99.0% |
+| Stability-control scenarios | 89.6% | 83.3% |
 
-| Evaluation | Judge A | Judge B | Adjudicated |
-|---|---:|---:|---:|
-| Overall | 94.9% | 96.7% | **97.6%** |
-| Change-sensitive cases | 95.8% | 99.0% | **98.6%** |
-| Control cases | 89.6% | 83.3% | **91.7%** |
+After disagreement review:
 
-### Adjudicated performance by dimension
-
-| Dimension | Adjudicated |
+| Evaluation | Adjudicated |
 |---|---:|
-| State recognition | 100.0% |
-| Temporal relevance | 100.0% |
-| Evidence distinction | 96.4% |
-| Evidence weighting | 92.9% |
-| Uncertainty | 100.0% |
-| Contextual relevance | 90.0% |
-| Interaction trajectory | 100.0% |
-| Consequence awareness | 100.0% |
+| Overall | **97.6%** |
+| Change-sensitive scenarios | **98.6%** |
+| Stability-control scenarios | **91.7%** |
 
-### Interpretation
+## What the evaluation suggests
 
-The benchmark provides evidence that the tested responses can recognize several forms of evolving context across domains while preserving uncertainty.
+The strongest public evidence is that the evaluated responses were able to recognize several forms of change while preserving uncertainty.
 
-The strongest evidence appears in state recognition, temporal relevance and uncertainty handling.
+The benchmark also shows where the task becomes harder: distinguishing evidence quality, deciding whether context is actually relevant, weighting evidence and interpreting consequences.
 
-Lower performance before adjudication was concentrated in evidence distinction, contextual relevance, evidence weighting and consequence awareness. This concentration is useful because it identifies areas where the public benchmark remains demanding rather than reducing the task to simple state classification.
+Those harder areas are useful because they prevent the benchmark from becoming a simple test of whether the system notices that something changed.
 
-The adjudicated result should be interpreted as an exploratory benchmark result, not as independent scientific validation.
+## Judge agreement
 
-### What this release does not establish
+Two separate judge configurations agreed exactly on **90.4% of the 167 applicable ratings**.
 
-The benchmark does not establish that any particular architecture, model or implementation is superior in production.
+The remaining disagreements were reviewed against the public rubric and case expectations.
 
-It also does not expose proprietary implementation mechanisms, internal representations, private prompts, private datasets, execution traces or system-specific decision procedures.
+This is a consistency check on the evaluation process, not independent scientific validation.
 
-## Public research boundary
+## What this does not establish
 
-This repository is designed to make the research question, benchmark construction, evaluation criteria and aggregate evidence inspectable without publishing implementation details that are outside the intended public research layer.
+The benchmark does not establish production performance or prove that one architecture, model or implementation is superior.
+
+It also does not publish private prompts, internal representations, evaluator implementation, raw runs, private datasets or proprietary mechanisms.

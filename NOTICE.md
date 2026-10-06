@@ -4,7 +4,7 @@ Copyright © 2026 Gabriel Marín.
 
 State-Active Intelligence is a research project and public conceptual layer.
 
-The repository publishes selected research framing, conceptual material and high-level reasoning. Publication of any file should be understood within the disclosure boundary defined in `research-boundary/PUBLIC_VS_PRIVATE.md`.
+This repository publishes selected research framing, conceptual material, public evaluation material and high-level reasoning. Publication of a file is subject to the disclosure boundary defined in `research-boundary/PUBLIC_VS_PRIVATE.md`.
 
 No license is granted through this notice for proprietary implementation, unpublished research material or private system mechanisms.
 

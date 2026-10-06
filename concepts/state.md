@@ -1,15 +1,11 @@
 # State
 
-State is the condition of a system at a particular point in time.
+State is what is true about a person or system at a particular point in time.
 
-For evolving systems, state is:
+The important point is that **today's state does not have to be yesterday's state**.
 
-- temporal
-- contextual
-- dynamic
+A condition can change even when some characteristics remain stable. A person can remain the same person while behaving differently. An operation can remain the same operation while its environment changes.
 
-A current condition can differ materially from historical conditions even when some underlying characteristics appear persistent.
-
-The research question is how intelligence should reason across those changes while preserving uncertainty and epistemic traceability.
+The research asks how intelligence should reason across those transitions while preserving uncertainty and evidence.
 
 Formal state representations remain outside the public layer.

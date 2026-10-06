@@ -1,32 +1,15 @@
 # Public Casebook
 
-The benchmark contains 24 synthetic cases across healthcare, legal, finance and fleet operations.
+The public benchmark contains **28 controlled scenarios** across healthcare, legal, finance and fleet operations.
 
-Each case contains:
+Each scenario follows a simple idea:
 
-**T0**
-The initial condition.
+**something is true → something changes → new information appears → intelligence must decide whether the change matters**
 
-**T1**
-A subsequent change.
+The benchmark includes cases where the correct behavior is to adapt and cases where the correct behavior is to remain stable.
 
-**T2**
-A later observation.
+The machine-readable definitions are available in [`benchmark/cases_v0.2.json`](benchmark/cases_v0.2.json).
 
-**Evaluation property**
-The behavior the benchmark is designed to test.
+The public scoring framework is available in [`benchmark/RUBRIC.md`](benchmark/RUBRIC.md).
 
-**Failure mode**
-A common way contextual reasoning can fail.
-
-Four cases are controls in which the new information should not materially change the current interpretation.
-
-The machine-readable case definitions are available in:
-
-[`benchmark/cases.json`](benchmark/cases.json)
-
-The scoring framework is available in:
-
-[`benchmark/RUBRIC.md`](benchmark/RUBRIC.md)
-
-The benchmark is intentionally synthetic and mechanism-neutral.
+The scenarios are controlled research fixtures designed to test observable behavior. They do not disclose the mechanism used by any private system.

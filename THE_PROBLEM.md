@@ -1,24 +1,28 @@
 # The Problem
 
-AI can increasingly observe context, retain information, reason over changing environments and participate in decisions.
+AI can increasingly understand a domain.
 
-The deeper difficulty appears when the object of reasoning is itself dynamic.
+The harder problem begins when **the person, organization or system inside that domain changes**.
 
-A person, organization or operational system can change because of experience, circumstance, external conditions, internal conditions, decisions or interactions with the intelligence system itself.
+A medical AI may know which treatment is appropriate. A financial AI may know which action fits a customer's historical profile. A fleet system may know what usually happens under a particular operating condition.
 
-That creates several coupled problems:
+But what if the patient changes? What if the customer changes? What if the operating conditions change?
 
-- the current state can diverge from historical patterns
-- behavior can differ from stated intention
-- relevant context can change
-- uncertainty can increase or decrease over time
-- interventions can influence subsequent conditions
-- outcomes can become evidence for later reasoning
+The old information may still be true. It may simply no longer be enough.
 
-The core research problem is therefore:
+That creates several problems at once:
 
-> **How should intelligence reason over an evolving system when observations, decisions, actions and consequences can all participate in subsequent change?**
+- today's state can differ from historical patterns
+- what people say they will do can differ from what they later do
+- circumstances can change the meaning of previously useful information
+- uncertainty can increase or decrease as new evidence appears
+- an intervention can change what happens next
+- the outcome can become evidence for the next decision
 
-This moves the problem beyond isolated prediction.
+The research problem is therefore:
 
-The research concern is the integrity of reasoning across change.
+> **How can intelligence remain useful when the thing it is trying to understand is changing while the intelligence is observing, predicting and acting?**
+
+This is not only a prediction problem.
+
+It is a problem of **knowing when previous knowledge still applies — and when it no longer does.**

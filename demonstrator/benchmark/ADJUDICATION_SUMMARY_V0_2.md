@@ -1,51 +1,42 @@
 # Adjudication Summary — Version 0.2
 
-## Scope
+## Why adjudication was needed
 
-The two judge evaluations produced **16 rating disagreements** across the 167 applicable dimension ratings.
+Two judge configurations produced **16 disagreements across 167 applicable ratings**.
 
-Each disagreement was reviewed against:
+Rather than hide those disagreements, they were reviewed against the same public rubric and the expected property of each case.
 
-- the public rubric;
-- the case-specific expected property;
-- the distinction between observed evidence and inference;
-- the requirement to preserve uncertainty where the evidence did not support stronger certainty.
+The review considered:
+
+- what the case actually showed
+- what could reasonably be inferred
+- whether the evidence supported a stronger conclusion
+- whether uncertainty was preserved
 
 No proprietary implementation rule was introduced during adjudication.
 
-## Aggregate effect
+## Result
 
-Relative to Judge A, adjudication produced a net increase of **9 scoring points** across the 167 applicable ratings.
+Relative to Judge A, adjudication produced a net increase of **9 scoring points**.
 
-This resulted in:
+The resulting public figures are:
 
 - **97.6% overall**
-- **98.6% on change-sensitive cases**
-- **91.7% on controls**
+- **98.6% on change-sensitive scenarios**
+- **91.7% on stability-control scenarios**
 
-## Dimension-level effect
+## What this means
 
-| Dimension | Before adjudication | After adjudication |
-|---|---:|---:|
-| State recognition | 100.0% | 100.0% |
-| Temporal relevance | 100.0% | 100.0% |
-| Evidence distinction | 85.7% | **96.4%** |
-| Evidence weighting | 96.4% | **92.9%** |
-| Uncertainty | 100.0% | 100.0% |
-| Contextual relevance | 75.0% | **90.0%** |
-| Interaction trajectory | 96.2% | **100.0%** |
-| Consequence awareness | 87.5% | **100.0%** |
+The review did not simply raise every disagreement.
 
-## Interpretation
+Some ratings increased because the rubric supported the stronger interpretation.
 
-The adjudication did not simply move scores upward uniformly.
+Others decreased because the response did not adequately distinguish evidence quality or temporal relevance.
 
-Some ratings were raised where the public rubric supported the stronger interpretation, while others were lowered where the response did not adequately distinguish evidence quality or temporal representativeness.
-
-This is important because adjudication functions as a resolution mechanism for evaluator disagreement rather than as a post-hoc optimization of the benchmark result.
+That makes adjudication a disagreement-resolution step rather than a mechanism for maximizing the final score.
 
 ## Boundary
 
-The public release contains only this aggregate adjudication record.
+Only the aggregate adjudication record is public.
 
-Case-level generated outputs, judge prompts, evaluator implementation and raw execution artifacts remain outside the public repository.
+Case-level generated outputs, judge prompts, evaluator implementation and raw execution artifacts remain private.

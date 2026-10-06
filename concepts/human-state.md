@@ -1,11 +1,15 @@
 # Human State
 
-Human state is dynamic.
+A person is not a static profile.
 
-Behavior, intention, priorities, circumstances and surrounding conditions can change across time.
+Behavior, intentions, priorities, circumstances and surrounding conditions can change over time.
 
-Historical behavior may remain informative while becoming less representative. A declared intention may differ from later observed behavior. The same person may therefore produce different outcomes under different conditions.
+Someone can behave one way for months and then behave differently because their goals changed, their environment changed, their experience changed or something happened that was not visible before.
 
-The public research concern is how intelligence can reason about such change without reducing a person to a static profile.
+Historical behavior can still be useful.
+
+It just may no longer be the best description of the person today.
+
+The research question is how intelligence can reason about that change without reducing a person to a permanent label.
 
 Formal representations and inference mechanisms remain private.

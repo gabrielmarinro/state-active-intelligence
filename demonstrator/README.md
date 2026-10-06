@@ -2,103 +2,51 @@
 
 ## Public Demonstrator
 
-### From domain intelligence to intelligence that remains relevant as people and contexts evolve
+### From specialized AI to intelligence that can understand the person behind the problem
 
-Specialized AI can be highly capable within a domain.
+AI can already specialize in medicine, legal, finance or fleet operations. It can analyze information, detect patterns, diagnose, recommend or predict risk.
 
-A medical system can reason about healthcare.
+**But knowing the right decision does not mean knowing whether the person will actually carry it out.** A medical AI can identify the right treatment and the patient can still stop it.
 
-A legal system can reason about law.
+State-Active Intelligence seeks to add that missing dimension: **understanding the person, what they are going through, how their behavior is changing and what factors may cause them to make — or stop making — a particular decision.**
 
-A financial system can reason about finance.
+In medicine, for example, the question becomes not only:
 
-An operational system can reason about operations.
+**“What treatment does this patient need?”**
 
-A different problem emerges when the relevant object includes the evolving relationship between a particular person and the domain.
+but also:
 
-A person can change.
+**“Will they finish it? What will make them stop? When will the warning signs appear? What could prevent that?”**
 
-Their circumstances can change.
+That is the distinction this public demonstrator begins to test.
 
-Their behavior can change.
+## Public evidence
 
-Their goals can change.
+The demonstrator covers healthcare, legal, finance and fleet operations.
 
-Their trust can change.
+Across **28 controlled scenarios**, it tests both sides of the problem:
 
-Their willingness to act can change.
+- when something important changes, intelligence should recognize that it matters;
+- when new information is only noise, intelligence should not change unnecessarily.
 
-The relevance of historical information can therefore change even when the domain itself remains stable.
+When a scenario required adaptation because something important had changed, the evaluated capability reached **98.6% of the available score**.
 
-This demonstrator makes that phenomenon testable.
+When the new information should not materially change the interpretation, it reached **91.7%**.
 
-## Research question
+In other words:
 
-> **How should specialized intelligence adapt when the person, context or relationship with the domain evolves over time?**
+**when reality changed, it usually changed its response; when reality had not meaningfully changed, it usually did not.**
 
-## Benchmark hypothesis
+The full methodology and evidence are available in [RESULTS.md](RESULTS.md), [benchmark/JUDGE_AGREEMENT_V0_2.md](benchmark/JUDGE_AGREEMENT_V0_2.md), [benchmark/ADJUDICATION_SUMMARY_V0_2.md](benchmark/ADJUDICATION_SUMMARY_V0_2.md) and [REPRODUCIBILITY_V0_2.md](REPRODUCIBILITY_V0_2.md).
 
-A domain can remain stable while contextual relevance changes.
+## Methodological note
 
-A strong system should therefore:
+The public benchmark uses controlled research scenarios across four domains. It is intended to make the research question and observable evaluation behavior inspectable; it is not a claim of production validation.
 
-- recognize material change
-- preserve historical evidence without treating it as permanently representative
-- distinguish observation from interpretation
-- preserve uncertainty
-- re-evaluate when warranted
-- remain stable when new information is irrelevant
+## Public boundary
 
-## What is public
+The demonstrator intentionally does not publish the private implementation mechanisms, internal representations, prompts, evaluator implementation, raw runs, private datasets or system-specific operational workflows.
 
-The artifact exposes:
+The research question is public.
 
-- synthetic cases
-- temporal transitions
-- control cases
-- evaluation dimensions
-- public scoring criteria
-- aggregate results when available
-
-It does not expose:
-
-- proprietary mechanisms
-- internal representations
-- implementation architecture
-- model-specific system prompts
-- decision procedures
-- private datasets
-- internal evaluations
-- system-specific operational workflows
-
-## Cross-domain scope
-
-Healthcare, legal, finance and fleet operations are used as different manifestations of the same research problem.
-
-The domain changes.
-
-The benchmark question remains.
-
-## Safety boundary
-
-All scenarios are synthetic research fixtures.
-
-They are not medical, legal, financial or operational advice.
-
-No real-world action should be inferred from the examples.
-
-## Current public benchmark
-
-Version 0.2 expands the demonstrator into a 28-case cross-domain benchmark with 24 change-sensitive cases and 4 controls.
-
-Public evidence includes the benchmark fixtures, rubric, methodology, aggregate results, cross-judge agreement, adjudication summary and reproducibility description.
-
-The public release intentionally excludes internal prompts, evaluator implementation, raw runs, generated outputs, private experiments and proprietary implementation mechanisms.
-
-See:
-
-- [`RESULTS.md`](RESULTS.md)
-- [`benchmark/JUDGE_AGREEMENT_V0_2.md`](benchmark/JUDGE_AGREEMENT_V0_2.md)
-- [`benchmark/ADJUDICATION_SUMMARY_V0_2.md`](benchmark/ADJUDICATION_SUMMARY_V0_2.md)
-- [`REPRODUCIBILITY_V0_2.md`](REPRODUCIBILITY_V0_2.md)
-- [`benchmark/cases_v0.2.json`](benchmark/cases_v0.2.json)
+The mechanism remains private.

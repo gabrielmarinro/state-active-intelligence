@@ -1,52 +1,50 @@
 # Reproducibility Description — Version 0.2
 
-## Publicly reproducible components
+## What another researcher can inspect
 
-Version 0.2 exposes the following research inputs:
+Version 0.2 makes the public research method inspectable through:
 
-- the synthetic benchmark cases;
-- the public rubric;
-- the evaluation protocol;
-- the scoring scale;
-- the applicable-dimension concept;
-- the aggregate calculation;
-- the judge-agreement reporting method;
-- the adjudication reporting method.
+- the controlled benchmark scenarios
+- the public rubric
+- the evaluation protocol
+- the scoring scale
+- the applicable-dimension rule
+- the aggregate calculation
+- judge-agreement reporting
+- adjudication reporting
 
-The benchmark therefore allows an external reader to inspect the research fixtures and reproduce the public scoring interpretation.
+This makes the public research fixtures and scoring interpretation available for methodological replication.
 
 ## Evaluation flow
 
-At a methodological level, the evaluation consists of:
+At the public methodological level:
 
-1. presenting the same synthetic case set to a model or system;
-2. obtaining one response per case;
-3. evaluating each response only against dimensions applicable to that case;
-4. assigning a 0–2 score per applicable dimension;
-5. aggregating awarded points against total possible points;
-6. comparing results across two judge configurations;
-7. reviewing disagreements against the public rubric;
-8. reporting aggregate adjudicated results.
+1. the same case set is presented to a model or system;
+2. one response is obtained for each case;
+3. only dimensions applicable to that case are scored;
+4. each applicable dimension receives 0, 1 or 2 points;
+5. awarded points are compared with the total possible points;
+6. results from two judge configurations are compared;
+7. disagreements are reviewed against the public rubric;
+8. aggregate adjudicated results are reported.
 
-## Scope of reproducibility
+## What is not reproduced
 
-This release supports **methodological replication**, not bit-for-bit computational reproduction.
+The public repository intentionally does not publish:
 
-The following execution details are intentionally not published:
+- internal prompts
+- generation harnesses
+- evaluator implementation
+- raw model outputs
+- raw evaluation runs
+- local execution traces
+- private experiments
+- implementation-specific mechanisms
 
-- internal prompts;
-- generation harnesses;
-- evaluator implementation;
-- raw model outputs;
-- raw evaluation runs;
-- local execution traces;
-- private experiments;
-- implementation-specific mechanisms.
+Those materials remain outside the public research boundary.
 
-Those materials are retained locally and are outside the public research boundary.
+## What reproducibility means here
 
-## Why the boundary exists
+This release supports **methodological replication**, not bit-for-bit reproduction of the private execution environment.
 
-The purpose of the public repository is to expose the research question, experimental fixtures, evaluation logic and aggregate evidence without exposing an implementation path that could materially reproduce proprietary mechanisms.
-
-Reproducibility is therefore defined here at the level of the public research method and evidence structure, rather than disclosure of the complete internal execution stack.
+The objective is to make the public question, fixtures, evaluation criteria and evidence structure inspectable without exposing an implementation path that could materially reproduce proprietary mechanisms.

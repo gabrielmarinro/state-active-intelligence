@@ -1,8 +1,10 @@
 # References
 
-This repository maintains a public research trail for fields relevant to evolving-system intelligence.
+This repository maintains a public research trail around a simple question:
 
-Relevant domains include:
+**What changes when intelligence operates on people and systems that do not remain the same?**
+
+Relevant fields include:
 
 - decision intelligence
 - causal inference
@@ -15,22 +17,16 @@ Relevant domains include:
 - AI evaluation
 - governance and human agency
 
-## Research use
+References may inform terminology, problem framing, hypotheses, comparisons or evaluation questions.
 
-References provide intellectual context for the research. They may inform terminology, problem framing, hypotheses, comparative analysis or evaluation questions.
-
-A reference does not imply adoption of a particular method or implementation.
+A reference does not imply adoption of a particular method.
 
 ## Disclosure boundary
 
-Public references are intentionally separated from unpublished implementation work.
+The public research trail is intentionally separated from unpublished implementation work.
 
-This repository does not publish private system architecture, proprietary mechanisms, formal internal representations, implementation procedures, private data, internal evaluation artifacts or other material whose combination could make the underlying system reconstructible.
+This repository does not publish private architecture, proprietary mechanisms, formal internal representations, implementation procedures, private data, internal evaluation artifacts or combinations of details that could make the underlying system reconstructible.
 
 The public trail explains the surrounding intellectual landscape.
 
-It leaves the private design undisclosed.
-
-## Status
-
-This is an evolving research bibliography and may change as the research develops.
+The private design remains private.

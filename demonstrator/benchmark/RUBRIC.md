@@ -1,103 +1,101 @@
 # Public Benchmark Rubric
 
-## Purpose
+## What is being scored?
 
-The benchmark evaluates whether an intelligence system can maintain contextual relevance when the relationship between a person, a domain and surrounding conditions evolves.
+The benchmark asks whether intelligence can recognize when a changing situation requires a different interpretation — and when it does not.
 
-It evaluates observable behavior.
+Each applicable dimension receives:
 
-It does not prescribe an implementation.
+- **0** — the behavior is missing
+- **1** — the behavior is partially present
+- **2** — the behavior is clearly present
 
 ## Scoring dimensions
 
-Each applicable dimension is scored from 0 to 2.
-
 ### 1. State recognition
 
-**0**: Fails to distinguish the earlier state from the current state.
+**0:** Does not distinguish the earlier state from the current state.
 
-**1**: Recognizes that something changed but describes the change incompletely.
+**1:** Notices that something changed but describes it incompletely.
 
-**2**: Correctly identifies the relevant current state transition.
+**2:** Correctly identifies the relevant change in state.
 
 ### 2. Temporal relevance
 
-**0**: Treats historical information as permanently representative.
+**0:** Treats historical information as permanently representative.
 
-**1**: Acknowledges historical limits but applies them inconsistently.
+**1:** Acknowledges historical limits but applies them inconsistently.
 
-**2**: Distinguishes historical relevance from current representativeness.
+**2:** Distinguishes historical usefulness from current representativeness.
 
 ### 3. Evidence distinction
 
-**0**: Conflates observation, interpretation or inference.
+**0:** Treats observation, interpretation or inference as the same thing.
 
-**1**: Partially distinguishes them.
+**1:** Partially separates them.
 
-**2**: Clearly separates observed information from interpretation.
+**2:** Clearly distinguishes observed information from interpretation.
 
-### 4. Uncertainty
+### 4. Evidence weighting
 
-**0**: Claims certainty unsupported by the case.
+**0:** Treats weak and strong evidence as equally important or gives them inappropriate weight.
 
-**1**: Mentions uncertainty without integrating it into the reasoning.
+**1:** Recognizes differences in evidence quality but applies them inconsistently.
 
-**2**: Preserves uncertainty proportionally to the available evidence.
+**2:** Gives stronger and weaker evidence an appropriate role in the interpretation.
 
-### 5. Contextual relevance
+### 5. Uncertainty
 
-**0**: Ignores relevant context or treats irrelevant context as decisive.
+**0:** Claims certainty that the case does not support.
 
-**1**: Notices context but applies its relevance inconsistently.
+**1:** Mentions uncertainty without integrating it into the reasoning.
 
-**2**: Identifies whether the changed context materially affects the current interpretation.
+**2:** Preserves uncertainty in proportion to the available evidence.
 
-### 6. Interaction trajectory
+### 6. Contextual relevance
 
-**0**: Treats interactions as independent or treats historical behavior as fixed.
+**0:** Ignores relevant context or treats irrelevant context as decisive.
 
-**1**: Recognizes an interaction trend without fully integrating it.
+**1:** Notices context but applies its importance inconsistently.
 
-**2**: Uses persistent changes in interaction as evidence about the current relationship.
+**2:** Correctly identifies whether the changed context materially affects the current interpretation.
 
-### 7. Consequence awareness
+### 7. Interaction trajectory
 
-**0**: Ignores the relationship between prior action and later conditions when the case contains one.
+**0:** Treats interactions as independent or treats historical behavior as fixed.
 
-**1**: Notices the sequence but does not integrate it into interpretation.
+**1:** Recognizes an interaction trend without fully integrating it.
 
-**2**: Recognizes that later observations may occur in a changed environment after consequential action.
+**2:** Uses persistent changes in interaction as evidence about the current relationship.
 
-## Control cases
+### 8. Consequence awareness
 
-Cases marked `control: true` are deliberately constructed so that new information should not materially change the interpretation.
+**0:** Ignores the relationship between prior action and later conditions when the case contains one.
 
-A system should therefore demonstrate **selective re-evaluation**, not indiscriminate updating.
+**1:** Notices the sequence but does not integrate it into the interpretation.
+
+**2:** Recognizes that later observations may occur in a changed environment after consequential action.
+
+## Stability-control scenarios
+
+Control scenarios are deliberately constructed so that new information should **not** materially change the interpretation.
+
+The desired behavior is therefore selective:
+
+**change when the situation changed; remain stable when it did not.**
 
 Changing every answer after every new observation is a failure mode.
 
-## Evaluation principle
+## Public comparison
 
-The benchmark rewards appropriate change.
+The public benchmark compares observable behavior between:
 
-It also rewards appropriate stability.
+**snapshot-oriented reasoning**
 
-The target property is:
+and
 
-> **Contextual re-evaluation without unnecessary volatility.**
+**evolving-context reasoning**
 
-## Recommended comparison
-
-A useful public comparison is:
-
-**Snapshot-oriented reasoning**
-
-versus
-
-**Evolving-context reasoning**
-
-Both systems receive exactly the same public case.
-
-The benchmark compares observable behavior only.
+Both receive the same public scenario.
 
 Internal architecture remains outside the evaluation artifact.

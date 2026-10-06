@@ -1,19 +1,23 @@
 # Static Profile Failure
 
-Consider a profile that describes a person as highly consistent.
+Imagine a profile that says a person is highly consistent.
 
-Later behavior changes.
+Then their behavior changes.
 
-Several interpretations remain possible:
+What happened?
 
-- the circumstances changed
-- the person's priorities changed
-- the environment changed
-- the earlier profile was too coarse
-- the behavior was temporary
+Maybe their circumstances changed.
 
-The point is methodological:
+Maybe their priorities changed.
 
-**A stable label can conceal an unstable system.**
+Maybe the environment changed.
 
-Intelligence operating over humans therefore needs a way to reason about change without turning historical regularities into permanent identity claims.
+Maybe the original profile was too simple.
+
+Maybe the change is temporary.
+
+The point is simple:
+
+> **A stable label can hide an unstable reality.**
+
+Intelligence operating around people therefore needs to reason about change without turning historical patterns into permanent identity claims.

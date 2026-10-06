@@ -1,25 +1,25 @@
 # The Shift
 
-A conventional intelligence pipeline can be summarized as:
+AI is traditionally very good at this:
 
-**observe → infer → predict**
+**observe → understand → predict**
 
-That model becomes incomplete when intelligence participates in the environment it is reasoning about.
+That works well when the thing being predicted remains sufficiently stable.
 
-The broader conceptual problem becomes:
+Human and operational systems often do not.
 
-**observe → interpret → decide → act → encounter changed conditions**
+A person can change after receiving advice. A customer can change after a major event. A fleet can change because the environment changes. The action taken by the intelligence can itself become part of what happens next.
 
-The key shift is epistemic.
+The loop therefore becomes:
 
-An action can change what is later observed. A changed condition can alter the relevance of previous evidence. New evidence can alter the interpretation of earlier assumptions.
+**observe → understand → predict → act → observe again**
 
-The system therefore operates within a moving target.
+The important shift is simple:
 
-The research question becomes:
+> **The intelligence is no longer only predicting the system. Its interaction with the system can become part of the system's next state.**
 
-> **What must change in the design of intelligence when the act of using intelligence can become one of the causes of the next state?**
+That means old evidence may lose relevance, new evidence may change the interpretation, and the result of an earlier intervention may become part of what the intelligence needs to understand next.
 
-This repository explores that question at the conceptual level.
+State-Active Intelligence explores that problem at the public conceptual level.
 
-The mechanisms that answer it remain private.
+The implementation mechanisms that address it remain private.

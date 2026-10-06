@@ -1,11 +1,15 @@
 # Closed-Loop Intelligence
 
-Closed-loop intelligence describes a class of systems in which later observations can depend on prior actions and changing conditions.
+A closed loop appears when what happens later can depend on what happened earlier — including what the intelligence itself did.
 
-The important conceptual property is feedback.
+For example:
 
-What is learned at one point can influence a later decision. That decision can alter subsequent conditions. Subsequent observations can then change what the system believes.
+**what is learned → what is decided → what is done → what changes → what is learned next**
 
-The research interest is the integrity of reasoning across that changing loop.
+That feedback matters because the next observation may no longer describe the same conditions as the previous one.
 
-The specific structure, controls and mechanisms used in private implementations are excluded from this repository.
+The research interest is therefore not simply whether the loop exists.
+
+It is whether intelligence can keep its reasoning coherent while the loop changes the situation.
+
+The specific structure and mechanisms used in private implementations are not published.

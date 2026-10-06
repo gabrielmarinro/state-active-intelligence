@@ -1,14 +1,14 @@
 # Consequence
 
-A consequence is a change that follows from an action, decision, interaction or surrounding condition.
+A consequence is a change that follows an action, decision, interaction or surrounding condition.
 
-In evolving systems, a consequence can matter beyond the immediate outcome because it may alter the conditions under which later decisions are made.
+In a changing system, that consequence can become important because it changes what the intelligence will face next.
 
-The analytical challenge is to distinguish:
+The useful distinction is:
 
-- what occurred
+- what happened
 - what changed
 - what may have contributed to the change
 - what remains uncertain
 
-This repository discusses that distinction conceptually without publishing proprietary attribution or evaluation methods.
+The public research discusses that distinction without publishing proprietary attribution or evaluation mechanisms.

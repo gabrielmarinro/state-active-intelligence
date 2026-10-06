@@ -1,9 +1,13 @@
 # Context-Aware AI
 
-Context-aware AI incorporates information about circumstances, history and environment into reasoning.
+Context-aware AI uses information about circumstances, history and environment.
 
-The public research question here goes one step further:
+State-Active Intelligence starts from a harder question:
 
-**How should intelligence reason when context itself changes and system actions may influence later context?**
+> **What happens when the context itself changes — and when intelligence can influence what that context becomes next?**
 
-The focus is therefore on evolving conditions and epistemic discipline rather than on a specific technical implementation.
+The focus is therefore not simply on adding more context.
+
+It is on deciding when previous context is still relevant, when new context changes the interpretation and when new information should not cause unnecessary change.
+
+The implementation remains private.

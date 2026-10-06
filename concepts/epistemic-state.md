@@ -1,18 +1,13 @@
 # Epistemic State
 
-Epistemic state concerns what can legitimately be claimed from available information.
+An intelligence system constantly moves between different kinds of statements.
 
-For intelligent systems, useful distinctions include:
+For example:
 
-- established information
-- observation
-- interpretation
-- prediction
-- decision
-- subsequent outcome
+**we know this → we observed this → we think this means this → we predict this → we decided this → this happened afterward**
 
-Collapsing these categories can create false certainty.
+Those are not the same thing.
 
-Keeping them distinct supports better reasoning, clearer auditability and more honest communication of uncertainty.
+Keeping them separate matters because an interpretation should not silently become a fact, and a prediction should not become proof simply because something happened afterward.
 
-The repository publishes the principle and withholds implementation-specific governance mechanisms.
+The public research preserves that distinction without publishing implementation-specific governance mechanisms.

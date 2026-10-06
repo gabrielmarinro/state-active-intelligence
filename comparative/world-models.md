@@ -2,14 +2,17 @@
 
 World models reason about environments, states and possible future outcomes.
 
-The public research question explored here concerns systems where the modeled conditions can evolve and where actions may become part of that evolution.
+State-Active Intelligence focuses on an additional difficulty:
 
-This creates additional concerns around:
+**the conditions being modeled can change, and actions can become part of that change.**
+
+That creates questions around:
 
 - changing state
-- temporal validity
+- temporal relevance
 - uncertainty
 - human agency
-- outcome interpretation
+- intervention
+- interpretation of outcomes
 
-The repository deliberately stays above implementation detail.
+The public repository explores these questions without publishing implementation detail.

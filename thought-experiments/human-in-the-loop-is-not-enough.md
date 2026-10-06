@@ -1,13 +1,17 @@
 # Human in the Loop Is Not Enough
 
-A system can include a human approval step and still reason about that human as though their condition were fixed.
+Adding a human approval step does not automatically mean an intelligence system understands the human.
 
-The deeper question is temporal:
+A system can still treat that person as a fixed profile:
 
-**conditions → system output → human response → changed conditions**
+**system output → human approval**
 
-Human agency therefore raises questions beyond approval or oversight.
+But real interaction can look more like:
 
-The relevant issue is how intelligence interprets and responds to change while leaving room for human judgment.
+**system output → human response → changed conditions → new behavior**
+
+The deeper question is therefore not simply whether a human is in the loop.
+
+It is whether intelligence can recognize that **the human inside the loop can change because of what happens in the loop**.
 
 This thought experiment intentionally avoids implementation detail.

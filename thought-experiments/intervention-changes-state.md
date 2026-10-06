@@ -1,13 +1,13 @@
 # Intervention Changes State
 
-Consider a system that estimates a future behavior and then provides an intervention.
+Imagine an intelligence system predicts that a person will behave in a certain way and then intervenes.
 
-The intervention may influence attention, priorities or behavior.
+The intervention may change the person's attention, priorities or behavior.
 
-The future outcome can therefore reflect both the original conditions and what happened after the system acted.
+The outcome can therefore reflect both the original situation and what happened after the intervention.
 
-The useful question is:
+The important question is:
 
-> **How should the result be interpreted when the act of using the prediction may have changed the outcome?**
+> **How should the result be understood when the act of using the prediction may have changed the outcome?**
 
-The example is conceptual. It reveals a research problem without specifying a solution.
+The example exposes a research problem without specifying a proprietary solution.

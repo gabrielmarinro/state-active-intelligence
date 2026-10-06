@@ -1,35 +1,49 @@
 # Design Principles
 
-## 1. Treat state as temporal
+These principles describe how intelligence should behave when the person or system being understood can change.
 
-A system should be understood as changing across time rather than as a frozen representation.
+## 1. Treat state as something that changes
 
-## 2. Separate epistemic status
+A person or system should not be treated as a frozen snapshot.
 
-Established knowledge, observation, inference, prediction, decision and subsequent outcome represent different epistemic conditions.
+What was true before can remain useful without being permanently representative.
 
-## 3. Preserve uncertainty
+## 2. Separate what is known from what is inferred
 
-Missing evidence, ambiguity and uncertainty should remain distinguishable from stronger claims.
+An observation is not the same thing as an interpretation.
 
-## 4. Treat context as dynamic
+A prediction is not the same thing as an outcome.
 
-Behavior and system conditions can change when circumstances change. Historical regularity should therefore be treated as evidence with temporal scope rather than as permanent truth.
+Keeping those distinctions clear reduces false certainty.
 
-## 5. Preserve agency
+## 3. Keep uncertainty visible
 
-Assistance, recommendation, action and human choice are distinct concepts. Intelligence should preserve the distinction even when the system participates in a decision process.
+Missing information, ambiguity and conflicting evidence should not be silently converted into certainty.
 
-## 6. Account for endogenous effects
+## 4. Treat context as something that can change
 
-An intervention may change the conditions that later observations describe. The intelligence system therefore becomes part of the environment it is attempting to understand.
+The same behavior can mean different things under different circumstances.
 
-## 7. Prefer traceability over narrative certainty
+Historical regularity is evidence. It is not permanent truth.
 
-A conclusion should remain connected to the evidentiary conditions that support it and to the uncertainty that remains.
+## 5. Preserve human agency
 
-## 8. Design for re-evaluation
+A recommendation, an intervention and a person's decision are different things.
 
-A conclusion about a changing system should remain revisable as new evidence changes the state of knowledge.
+Intelligence can support a decision without pretending that the human decision does not exist.
 
-> These principles describe the public research layer. Formal mechanisms, representations, procedures and implementation details remain private.
+## 6. Remember that action can change what happens next
+
+An intervention can affect attention, behavior or conditions.
+
+Once intelligence acts, it can become part of the environment it is trying to understand.
+
+## 7. Prefer traceable reasoning over confident stories
+
+A conclusion should remain connected to the evidence supporting it and to the uncertainty that remains.
+
+## 8. Allow conclusions to change when the evidence changes
+
+A conclusion about a changing system should be revisable.
+
+The public repository describes these principles. Formal mechanisms and implementation details remain private.
