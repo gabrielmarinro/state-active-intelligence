@@ -1,6 +1,6 @@
-# State-Active Intelligence
+# State-Active Intelligence (SAI)
 
-## Every failed decision has a human state behind it. State Active Intelligence finds it before failure.
+## Every failed decision has a human state behind it. SAI finds it before failure.
 
 AI is becoming very good at knowing things.
 
