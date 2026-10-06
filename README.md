@@ -1,6 +1,6 @@
 # State-Active Intelligence
 
-## Intelligence for situations that do not stay the same
+## Every failed decision has a human state behind it. State Active Intelligence finds it before failure.
 
 AI is becoming very good at knowing things.
 
