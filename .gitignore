@@ -49,3 +49,9 @@ venv/
 # Editors
 .vscode/
 .idea/
+
+# Local-only research execution
+demonstrator/benchmark/run_benchmark*.py
+demonstrator/benchmark/evaluate_benchmark*.py
+demonstrator/benchmark/runs/
+runs/
