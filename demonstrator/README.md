@@ -1,25 +1,5 @@
 # Human-Context-Aware Intelligence
 
-## Public Demonstrator
-
-### From specialized AI to intelligence that can understand the person behind the problem
-
-AI can already specialize in medicine, legal, finance or fleet operations. It can analyze information, detect patterns, diagnose, recommend or predict risk.
-
-**But knowing the right decision does not mean knowing whether the person will actually carry it out.** A medical AI can identify the right treatment and the patient can still stop it.
-
-State-Active Intelligence seeks to add that missing dimension: **understanding the person, what they are going through, how their behavior is changing and what factors may cause them to make — or stop making — a particular decision.**
-
-In medicine, for example, the question becomes not only:
-
-**“What treatment does this patient need?”**
-
-but also:
-
-**“Will they finish it? What will make them stop? When will the warning signs appear? What could prevent that?”**
-
-That is the distinction this public demonstrator begins to test.
-
 ## Public evidence
 
 The demonstrator covers **28 controlled scenarios across four domains: healthcare, legal, finance and fleet operations.**
