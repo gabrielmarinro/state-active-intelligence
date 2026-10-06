@@ -2,11 +2,9 @@
 
 ## Every failed decision has a human state behind it. SAI finds it before failure.
 
-AI is becoming very good at knowing things.
+AI is becoming very good at knowing things: It can specialize in medicine, law, finance, operations and many other fields. It can analyze large amounts of information, find patterns, make predictions and recommend actions.
 
-It can specialize in medicine, law, finance, operations and many other fields. It can analyze large amounts of information, find patterns, make predictions and recommend actions.
-
-A different problem appears when **the person or system being analyzed changes while the intelligence is still using what it learned before**.
+HOWEVER, a different problem appears when **the person or system being analyzed changes while the intelligence is still using what it learned before**.
 
 A patient can change. A customer can change. A business can change. A fleet can operate under different conditions tomorrow than it did yesterday.
 
