@@ -33,4 +33,18 @@ Private material may include:
 - internal nomenclature whose meaning reveals system structure
 - any combination of individually innocuous details that materially improves reconstructability
 
+## Disclosure test
 
+A useful question for every proposed publication is:
+
+> **Could a technically capable reader combine this information with the rest of the repository and derive a materially similar implementation path?**
+
+When the answer approaches yes, the material belongs outside the public repository.
+
+The boundary is therefore based on reconstructability rather than on whether an individual sentence appears harmless in isolation.
+
+## Research principle
+
+The public layer should make the intellectual problem understandable.
+
+The private layer should retain the mechanisms that solve it.
